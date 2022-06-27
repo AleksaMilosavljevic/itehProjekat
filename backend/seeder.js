@@ -25,11 +25,11 @@ const importData = async() => {
         const createdUsers = await User.insertMany(users)
 
         //create category
-        const category = new Category({name:'Voce'})
+        const category = new Category({name:'Telefoni'})
         await category.save()
-        const category2 = new Category({name:''})
+        const category2 = new Category({name:'Lapotopovi'})
         await category2.save()
-        const category3 = new Category({name:''})
+        const category3 = new Category({name:'Tableti'})
         await category3.save()
         const category4 = new Category({name:''})
         await category4.save()
